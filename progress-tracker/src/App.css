@@ -1,0 +1,116 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.selected-question {
+  margin-bottom: 20px;
+}
+
+.selected-question-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.selected-question-toggle {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.questions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.questions-table th,
+.questions-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.questions-table th {
+  background-color: #f5f5f5;
+}
+.completed-button {
+  background-color: #28a745; /* Green color for completed */
+  color: #fff; /* White text for visibility */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.not-completed-button {
+  background-color: #dc3545; /* Red color for not completed */
+  color: #fff; /* White text for visibility */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+/* Existing styles ... */
+
+.completed-row {
+  background-color: #e6ffe6; /* Light tint of green for completed */
+}
+
+.not-completed-row {
+  background-color: #ffe6e6; /* Light tint of red for not completed */
+}
+
+/* Existing styles ... */
+.selected-question {
+  margin-bottom: 20px;
+  /* Add other styles as necessary... */
+}
+a {
+  color: blue; /* Dark blue color */
+  text-decoration: none; /* Removes the underline */
+}
+.pie-chart {
+  position: relative;
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden; /* Hides parts of slices outside the container */
+}
+
+.slice {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip: rect(
+    0,
+    50px,
+    100px,
+    0
+  ); /* Clips the half-circle to create a pie slice */
+  transform-origin: 50% 50%;
+}
